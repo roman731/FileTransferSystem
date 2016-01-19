@@ -1,5 +1,5 @@
 # FileTransferSystem
-FileTransferSystem is a client-server file transfer system built with Java that uses the Socket API. The server is run on one machine and the client on another. The server is run on a specific port and listens for requests. The client must know the server IP and port it's running on in order to connect to the server. Once the client is connected there are several commands the client is able to execute which are explained in detail below. 
+FileTransferSystem is a client-server file transfer system built with Java that uses the Socket API and can communicate and transfer files via the TCP protocol. The server is run on one machine and the client on another. The server is run on a specific port and listens for requests. The client must know the server IP and port it's running on in order to connect to the server. Once the client is connected there are several commands the client is able to execute which are explained in detail below. 
 
 Created using JCreator 4.5 IDE. Tested in Windows 7 and XP.
 
