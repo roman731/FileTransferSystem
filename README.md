@@ -10,9 +10,13 @@ Since the application is command line based, you need an IDE to run it. If you'r
 The client has the ability to run the following commands: 
 'ls': Prints on the client window the contents(including files and folders) of the current directory on the server.
 'pwd': Prints on the client window the full pathname of the current directory on the server.
+
 'mkdir [new-folder-name]': Creates a new folder in the current directory on the server.
+
 'cd [file-path]' OR 'cd ..': Used to change directories. The client can walk through basically any directory on the server. 'cd ..' goes up a single directory.
+
 'get [file-name]': Downloads the specific file from the server and stores it on the client machine. The client file is created with the same name as it had on the server machine. You can specify where the file is saved on the client machine but by default it's saved in the same folder as where the client is ran from. 
+
 'put [file-name]': Uploads the file from the client machine and stores it in the current directory of the server machine. On the server, it is given the same name it has on the client machine.
 
 # KnownBugs
